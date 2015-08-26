@@ -133,11 +133,11 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="44" y2="0" width="0" layer="20"/>
-<text x="29.615" y="1.9525" size="0.6096" layer="25" align="bottom-center">Current Sense</text>
+<text x="29.615" y="1.9525" size="0.6096" layer="25" font="vector" align="bottom-center">Current Sense</text>
 <text x="29.337" y="0.635" size="1.016" layer="25" align="bottom-center">+</text>
 <text x="24.257" y="0.635" size="1.016" layer="25" align="bottom-center">-</text>
 <text x="34.417" y="0.635" size="0.8128" layer="25" align="bottom-center">VIN</text>
-<text x="34.6075" y="15.6845" size="0.8128" layer="25" rot="R180" align="center">Self-power</text>
+<text x="34.6075" y="15.6845" size="0.8128" layer="25" font="vector" rot="R180" align="center">Self-power</text>
 <wire x1="44" y1="0" x2="44" y2="31" width="0" layer="20"/>
 <wire x1="44" y1="31" x2="0" y2="31" width="0" layer="20"/>
 <wire x1="0" y1="31" x2="0" y2="0" width="0" layer="20"/>
