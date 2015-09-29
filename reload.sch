@@ -2051,6 +2051,7 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <text x="124.46" y="180.34" size="3.81" layer="94" align="bottom-center">Constant Load</text>
 <text x="210.82" y="180.34" size="3.81" layer="94" align="bottom-center">Current Reading</text>
 <text x="200.66" y="7.62" size="2.54" layer="94" align="bottom-center">Arachnid Labs (Nick Johnson)</text>
+<text x="15.24" y="106.68" size="1.778" layer="94">replaced by two holes in the board</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="147.32" y="83.82" rot="R90"/>
@@ -2093,7 +2094,10 @@ Source: http://eshop.phoenixcontact.com .. 1729131.pdf</description>
 <instance part="SUPPLY1" gate="G$1" x="33.02" y="58.42"/>
 <instance part="SUPPLY2" gate="G$1" x="226.06" y="119.38"/>
 <instance part="C5" gate="G$1" x="60.96" y="43.18"/>
-<instance part="X1" gate="-1" x="231.14" y="116.84"/>
+<instance part="X1" gate="-1" x="231.14" y="116.84" smashed="yes">
+<attribute name="NAME" x="234.188" y="115.951" size="1.778" layer="95"/>
+<attribute name="VALUE" x="233.553" y="79.502" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="X1" gate="-2" x="231.14" y="111.76"/>
 <instance part="X1" gate="-3" x="231.14" y="106.68"/>
 <instance part="R9" gate="R?" x="193.04" y="101.6"/>
